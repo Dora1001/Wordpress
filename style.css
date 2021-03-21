@@ -1,24 +1,85 @@
-@charset "UTF-8";
-
 /*
-Theme Name: Wordpres - zadanie rekrutacyjne
-Theme URI: http://janus-grafik.pl
+Theme Name: Wordpress zadanie rekrutacyjne
+Text Domain: Wordpress zadanie rekrutacyjne
+Version: 1.7
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: 
 Author: Dorota Janus
-Author URI: http://janus-grafik.pl
-Description: Zadanie rekrutacyjne Hello world!
-Requires at least: 5.3
-Tested up to: 5.6
-Requires PHP: 5.6
-Version: 1.2
+Author URI: 
+Theme URI: 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: Zadanie rekrutacyjne Hello world!
-Tags: RWD
-
-Wordpres - zadanie rekrutacyjne, (C) 2020 WordPress.org
-Wordpres - zadanie rekrutacyjne is distributed under the terms of the GNU GPL.
 */
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
 
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 0.5em;
+}
 
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
 
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #808080;
+  text-align: center;
+}
 
+.menu__logo {
+  margin: 1em 2em 0.5em 2em;
+}
+
+.menu {
+  background-color: white;
+}
+
+.slider {
+  position: relative;
+  background-color: #215398;
+}
+.slider__header {
+  color: white;
+  padding-top: 0.7em;
+}
+.slider__text {
+  color: white;
+  padding-bottom: 0.7em;
+}
+.slider::after {
+  position: absolute;
+  content: "";
+  background-color: #ff3859;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  top: 96%;
+  left: 49%;
+}
+
+.wp-block-column {
+  background-color: white;
+  height: 5em;
+}
+
+.wp-block-columns {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+/*# sourceMappingURL=style.css.map */
