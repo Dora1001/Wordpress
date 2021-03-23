@@ -1,3 +1,5 @@
+
+
 <?php
 
 function themename_custom_logo_setup() {
@@ -15,4 +17,11 @@ function themename_custom_logo_setup() {
  
 add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 
+
+
+require get_template_directory() . '/inc/gutenberg.php'
+
 ?>
+
+
+
