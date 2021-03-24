@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "build:scripts": "wp-scripts build",
+  "start-build": "wp-scripts start",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
     "defaults"
@@ -11,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@wordpress/scripts": "14.0.1",
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
